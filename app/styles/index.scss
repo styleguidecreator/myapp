@@ -6,3 +6,12 @@
 @import 'base/_font';
 @import 'base/_screen';
 @import 'base/_basic';
+
+/*Components*/
+@import 'components/_buttons';
+
+/*Modules*/
+@import 'modules/_menu';
+
+/*Layaout*/
+@import 'layaout/_home';
