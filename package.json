@@ -49,6 +49,7 @@
     "react-redux": "^4.4.5",
     "react-router": "^2.6.0",
     "react-router-redux": "^4.0.5",
+    "realm": "^0.14.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "sass-loader": "^4.0.0",
@@ -61,7 +62,9 @@
     "node": "5.10.x",
     "npm": "3.8.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "barba.js": "0.0.10"
+  },
   "xo": {
     "esnext": true,
     "space": 2,

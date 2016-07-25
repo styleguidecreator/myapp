@@ -3,29 +3,33 @@ body,
 html {
   line-height: 1.2;
   font-size: rem(16);
-  color:$font-color-2;
+  color: $font-color-2;
   font-family: $font-secondary;
   text-rendering: optimizeLegibility;
 }
-
-a{
+a {
   text-decoration: none;
   cursor: pointer;
   color: $font-color-2;
 }
-
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-primary;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
 }
-
-h1{
+h1 {
   font-size: $font-size-xlarge;
 }
-
-b{
+b {
   font-weight: $font-weight-bold;
 }
-
-i{
+i {
   font-style: italic;
 }
